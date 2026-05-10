@@ -1,0 +1,8 @@
+import { type ClassValue, clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+// Combina clases Tailwind con resolución de conflictos.
+// Mismo helper que en dieta-admin — patrón shadcn/ui.
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}

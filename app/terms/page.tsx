@@ -140,7 +140,7 @@ export default function TermsPage() {
 
       <LegalSection number={7} title="Limitación de responsabilidad">
         <p>
-          DietApp se ofrece <strong>"tal cual"</strong>, sin garantías
+          DietApp se ofrece <strong>«tal cual»</strong>, sin garantías
           expresas o implícitas más allá de las exigidas por la ley
           aplicable.
         </p>
